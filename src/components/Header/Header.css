@@ -94,7 +94,8 @@
   margin-right: 5px;
 }
 
-.language svg {
+a {
+  text-decoration: none;
 }
 
 .span {

@@ -3,6 +3,7 @@ import { FirebaseContex } from '../../store/Context';
 import Logo from '../../olx-logo.png';
 import './Login.css';
 import { useHistory } from 'react-router-dom';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 function Login() {
   const [email,setEmail] = useState("");
@@ -49,7 +50,7 @@ function Login() {
           <br />
           <button>Login</button>
         </form>
-        <a>Signup</a>
+        <Link to="/signup">Signup</Link>
       </div>
     </div>
   );
